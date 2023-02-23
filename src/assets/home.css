@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+#header{
+    position: fixed;
+    top:0%;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    box-shadow: 2px 2px 20px 2px grey;
+}
+
+.searchBar {
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+}
+
+.searchBar input {
+    outline: none;
+    border: 1px solid rgb(2, 2, 72);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    background-color: rgb(228, 227, 227);
+    padding-left: 2rem;
+
+}
+
+.searchBar button {
+    outline: none;
+    border: none;
+    background-color: rgb(2, 2, 72);
+    color: white;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding-bottom: 0.2rem
+}
+
+
+h4 {
+    color: red;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.bodyWrapper{
+    margin-top: 12rem;
+    z-index: 1;
+}
+.imageCardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+}
